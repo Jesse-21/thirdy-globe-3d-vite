@@ -4,7 +4,7 @@ import { setupGlobe } from './globe';
 const app = document.querySelector<HTMLDivElement>('#app');
 
 const title = document.createElement('h1');
-title.innerText = 'Vanilla Cobe Draggable and Rotate';
+title.innerText = 'Thirdy - Simplicity Fuels Creativity';
 
 const canvas = document.createElement('canvas');
 canvas.classList.add('globe');
