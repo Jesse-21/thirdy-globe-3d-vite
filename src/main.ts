@@ -8,8 +8,8 @@ title.innerText = '';
 
 const canvas = document.createElement('canvas');
 canvas.classList.add('globe');
-canvas.setAttribute('width', '1000');
-canvas.setAttribute('height', '1000');
+canvas.setAttribute('width', '1024');
+canvas.setAttribute('height', '500');
 
 if (app) {
   app.appendChild(title);
