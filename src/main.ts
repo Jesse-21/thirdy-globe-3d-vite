@@ -4,7 +4,7 @@ import { setupGlobe } from './globe';
 const app = document.querySelector<HTMLDivElement>('#app');
 
 const title = document.createElement('h1');
-title.innerText = 'Thirdy - Simplicity Fuels Creativity';
+title.innerText = '';
 
 const canvas = document.createElement('canvas');
 canvas.classList.add('globe');
