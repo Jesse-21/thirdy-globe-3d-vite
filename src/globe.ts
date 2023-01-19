@@ -20,10 +20,8 @@ export function setupGlobe(canvas: HTMLCanvasElement) {
     glowColor: [1, 1, 1],
     markers: [
       // longitude latitude
-      //  main USA eastcoast HQ of Thirdy
+      //  main USA HQ of Thirdy
       { location: [32.1747653, -81.2291647], size: 0.03 },
-      // secondary westcoast usa HQ of Thirdy
-      { location: [32.796438328311105, -116.96204530069977], size: 0.1 },
     ],
     onRender: (state) => {
       // This prevents rotation while dragging
