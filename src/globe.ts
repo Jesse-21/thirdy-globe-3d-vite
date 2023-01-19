@@ -8,7 +8,7 @@ export function setupGlobe(canvas: HTMLCanvasElement) {
   createGlobe(canvas, {
     devicePixelRatio: 2,
     width: 1000,
-    height: 600,
+    height: 1000,
     phi: 0,
     theta: 0,
     dark: 1,
