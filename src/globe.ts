@@ -8,20 +8,22 @@ export function setupGlobe(canvas: HTMLCanvasElement) {
   createGlobe(canvas, {
     devicePixelRatio: 2,
     width: 1000,
-    height: 1000,
+    height: 600,
     phi: 0,
     theta: 0,
     dark: 1,
     diffuse: 3,
-    mapSamples: 18000,
+    mapSamples: 25000,
     mapBrightness: 6,
     baseColor: [0.3, 0.3, 0.3],
     markerColor: [0.1, 0.8, 1],
     glowColor: [1, 1, 1],
     markers: [
       // longitude latitude
-      { location: [37.7595, -122.4367], size: 0.03 },
-      { location: [40.7128, -74.006], size: 0.1 },
+      //  main USA eastcoast HQ of Thirdy
+      { location: [32.1747653, -81.2291647], size: 0.04 },
+      // secondary westcoast usa HQ of Thirdy
+      { location: [32.796438328311105, -116.96204530069977], size: 0.1 },
     ],
     onRender: (state) => {
       // This prevents rotation while dragging
